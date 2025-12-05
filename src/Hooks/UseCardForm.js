@@ -1,0 +1,1 @@
+// useCardForm.js is a custom React hook. Its main purpose is to organize and manage all form-related logic in one place, instead of scattering it throughout App.jsx or CardForm.jsx.
