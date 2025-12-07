@@ -1,8 +1,12 @@
-import React from 'react'
+import React  from 'react'
+import CardForm from './Components/Cardform'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <CardForm/>
+    </div>
+   
   )
 }
 
