@@ -5,11 +5,11 @@ import Completed from "./Components/Completed";
 
 function App() {
   const [cardData, setCardData] = useState({
-    name: "Jane Doe",
-    number: "0000 0000 0000 0000",
-    month: "00",
-    year: "00",
-    cvc: "000",
+    name: "",
+    number: "",
+    month: "",
+    year: "",
+    cvc: "",
   });
 
   const [isCompleted, setIsCompleted] = useState(false);
