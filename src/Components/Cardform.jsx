@@ -113,7 +113,9 @@ function CardForm({ cardData, setCardData, setIsCompleted }) {
     <div>
       <form
         onSubmit={handleSubmit}
-        className="mt-4 sm:mt-6 md:mt-8 p-6 sm:p-8 md:p-10 max-w-md mx-auto"
+        className="mt-15 sm:mt-6 md:mt-48 p-6 sm:p-8 md:p-10 md:max-w-90
+    mx-auto
+        "
       >
         {/* Cardholder Name */}
         <label htmlFor="name" className="block text-gray-700 uppercase text-xs mb-1">Cardholder Name</label>

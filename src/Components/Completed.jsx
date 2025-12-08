@@ -3,7 +3,8 @@ import Tickimag from "../assets/icon-complete.svg";
 
 function Completed({onContinue}) {
   return (
-    <div className="mt-20 mb-10 sm:mt-48 md:mt-28 px-6 flex flex-col items-center text-center">
+    <div className="mt-20 mb-10 sm:mt-48 md:mt-58 px-16 
+    flex flex-col items-center text-center">
 
       {/* Tick Icon */}
       <img 

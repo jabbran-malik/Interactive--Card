@@ -4,13 +4,14 @@ import Icon from '../assets/favicon-32x32.png';
 
 function CardFront({ name, number, month, year }) {
   return (
-    <div className="w-60 sm:w-72 md:w-80 h-full sm:h-40 md:h-44 relative font-sans">
+    <div className="w-60 sm:w-72 md:w-70 h-auto sm:h-40 md: relative font-sans">
       
       {/* Card background image */}
+      
       <img 
         src={Frontimg} 
         alt="Front of Card" 
-        className="w-full h-full object-cover"
+        className="w-full h-full object-cover rounded-lg "
       />
 
       {/* Overlay content */}
