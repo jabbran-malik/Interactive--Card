@@ -24,20 +24,25 @@ function App() {
     setIsCompleted(false);
   };
   return (
-    <div>
+    <div className="md:flex">
       {/*  show preview */}
+      <div className="md:w-1/2">
       <CardPreview cardData={cardData} />
-
+</div>
       {/* Show form only */}
-      {!isCompleted ?(
+      
+  <div >    
+    {!isCompleted ?(
         <CardForm
           cardData={cardData}
           setCardData={setCardData}
           setIsCompleted={setIsCompleted}
+          
         /> )
          :(
         <Completed onContinue={handleContinue}/> 
-)} 
+)} </div>
+
     </div>
   );
 }
